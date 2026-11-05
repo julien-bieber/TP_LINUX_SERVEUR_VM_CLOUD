@@ -67,3 +67,9 @@ Attendu : les trois conteneurs `Up`, ports publiés **uniquement** sur `caddy` (
 ## Pièges
 - Ne pas déclarer de volumes nommés en plus des dossiers `./data` : on risque d'écraser les données existantes.
 - Les données sont dans `./data` : ce dossier ne doit **jamais** être versionné dans Git.
+
+## Captures
+
+**Pile relancée après down / up : seuls les ports de Caddy sont publiés**
+
+![Pile relancée après down / up : seuls les ports de Caddy sont publiés](assets/04-docker-compose-ps.png)

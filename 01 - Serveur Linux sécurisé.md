@@ -90,3 +90,17 @@ Attendu : les deux premières renvoient `Permission denied (publickey)`, la troi
 - Contrôler la **configuration effective** avec `sshd -T`, pas seulement le fichier.
 - Une faute de frappe (`PasswordAuthentification`) est ignorée silencieusement : `sshd -t` ne la signale pas toujours.
 - L'IP DHCP de `eth0` peut changer après un redémarrage d'Hyper-V.
+
+## Captures
+
+**Connexion root refusée depuis le poste client**
+
+![Connexion root refusée depuis le poste client](assets/01-root-refuse.png)
+
+**Une seule route par défaut**
+
+![Une seule route par défaut](assets/01-route-par-defaut.png)
+
+**Configuration SSH effective**
+
+![Configuration SSH effective](assets/01-sshd-config.png)

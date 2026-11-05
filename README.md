@@ -39,6 +39,8 @@ Chaque fichier correspond à un exercice et suit le même plan : **objectif, mac
 8. [Git et Ansible](<08 - Git et Ansible.md>)
 9. [Recette finale](<09 - Recette finale.md>)
 
+> Les captures sont dans [`assets/`](assets/). Les IP, domaines, noms d'hôtes et sujets ntfy y sont masqués.
+
 ## Arborescence finale sur le serveur cloud
 
 ```

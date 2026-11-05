@@ -113,3 +113,17 @@ Attendu : des snapshots `auto` quotidiens, `no errors were found`, prochaine ex�
 ## Pièges
 - Un dépôt sur le même disque que les données ne protège pas d'une perte du serveur : d'où la copie hors serveur.
 - Ne jamais versionner `/root/.restic-pass`.
+
+## Captures
+
+**Alerte reçue lors de l'échec volontaire de la sauvegarde**
+
+![Alerte reçue lors de l'échec volontaire de la sauvegarde](assets/07-alerte-echec.png)
+
+**Snapshots restic (manuel puis automatiques)**
+
+![Snapshots restic (manuel puis automatiques)](assets/07-restic-snapshots.png)
+
+**Timer systemd de sauvegarde quotidienne**
+
+![Timer systemd de sauvegarde quotidienne](assets/07-timer.png)

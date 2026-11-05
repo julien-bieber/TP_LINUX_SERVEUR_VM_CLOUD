@@ -170,3 +170,17 @@ Attendu : 1er passage avec des `changed`, 2e passage `changed=0`, seuls 22/80/44
 ## Pièges
 - Le module `community.docker.docker_compose_v2` peut signaler un faux `changed` : utiliser `command` + `changed_when`.
 - Créer le compte admin de Kuma juste après le déploiement : la page de création est publique.
+
+## Captures
+
+**Historique Git du dépôt cloné sur la machine vierge**
+
+![Historique Git du dépôt cloné sur la machine vierge](assets/08-git-log.png)
+
+**GLPI déployé en conteneurs sur la machine vierge**
+
+![GLPI déployé en conteneurs sur la machine vierge](assets/08-glpi-conteneurs.png)
+
+**Machine reconstruite : seuls 22, 80 et 443 en écoute**
+
+![Machine reconstruite : seuls 22, 80 et 443 en écoute](assets/08-ports-vm2.png)

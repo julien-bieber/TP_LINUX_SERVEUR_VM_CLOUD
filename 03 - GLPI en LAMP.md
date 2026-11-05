@@ -79,3 +79,13 @@ Attendu : `session.cookie_httponly = On`, `127.0.0.1:3306`, `200`, plus que `glp
 ## Pièges
 - Le DocumentRoot doit pointer sur `/public`, sinon GLPI affiche un avertissement de sécurité.
 - Si l'IP de la VM change, mettre à jour le fichier `hosts` du PC.
+
+## Captures
+
+**GLPI installé (bandeau des comptes par défaut avant nettoyage)**
+
+![GLPI installé (bandeau des comptes par défaut avant nettoyage)](assets/03-glpi-tableau-de-bord.png)
+
+**MariaDB limité à 127.0.0.1**
+
+![MariaDB limité à 127.0.0.1](assets/03-mariadb-localhost.png)

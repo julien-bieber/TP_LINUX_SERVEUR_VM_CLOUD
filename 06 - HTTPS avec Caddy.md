@@ -57,3 +57,13 @@ Attendu : émetteur `Let's Encrypt`, redirection `308 Permanent Redirect`, répo
 - Remplacer les domaines d'exemple du sujet par les vôtres : sinon `Could not resolve host`.
 - Si Caddy a été créé pendant une panne réseau ou pare-feu, le recréer : `sudo docker compose up -d --force-recreate caddy`.
 - Les ports 80 **et** 443 doivent être ouverts : Let's Encrypt valide le domaine via le port 80 (défi HTTP-01).
+
+## Captures
+
+**Certificat Let's Encrypt obtenu par Caddy**
+
+![Certificat Let's Encrypt obtenu par Caddy](assets/06-certificat.png)
+
+**Notifications ntfy reçues**
+
+![Notifications ntfy reçues](assets/06-ntfy-alertes.png)

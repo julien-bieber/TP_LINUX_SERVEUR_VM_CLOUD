@@ -37,3 +37,17 @@ foreach ($p in 22,80,443,3001,3306,8080,8081) { Test-NetConnection <IP_SERVEUR> 
 - [ ] Notifications DOWN puis UP reçues sur le téléphone
 - [ ] Dernière sauvegarde `auto` présente et `restic check` sans erreur
 - [ ] `ansible-playbook site.yml` renvoie `changed=0`
+
+## Captures
+
+**Sonde Kuma passée DOWN volontairement**
+
+![Sonde Kuma passée DOWN volontairement](assets/09-kuma-test-web.png)
+
+**Alertes DOWN puis UP reçues dans ntfy**
+
+![Alertes DOWN puis UP reçues dans ntfy](assets/09-ntfy-test-web.png)
+
+**Tests de recette depuis le poste client**
+
+![Tests de recette depuis le poste client](assets/09-recette-curl.png)

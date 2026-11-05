@@ -45,3 +45,9 @@ Les cinq tests passent. Méthode : la **première couche en échec** désigne la
 ## Pièges
 - `ping 8.8.8.8` OK mais `getent` KO : c'est le DNS, pas le réseau.
 - Certains réseaux bloquent le DNS direct vers `1.1.1.1` : seul le résolveur local répond (`dig @1.1.1.1` en échec est alors normal).
+
+## Captures
+
+**Tests réseau couche par couche**
+
+![Tests réseau couche par couche](assets/02-tests-reseau.png)

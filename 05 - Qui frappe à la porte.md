@@ -78,3 +78,13 @@ Attendu : `True` pour 22, 80, 443 et `False` pour les autres ; bouncer `active` 
 ## Pièges
 - Un bouncer installé n'est pas forcément actif : vérifier `systemctl is-active`.
 - Garder une session SSH ouverte pendant les tests de pare-feu pour ne pas s'enfermer dehors.
+
+## Captures
+
+**Tentatives de connexion SSH sur des comptes inexistants**
+
+![Tentatives de connexion SSH sur des comptes inexistants](assets/05-invalid-user.png)
+
+**Scan depuis le poste client : seuls 22, 80 et 443 répondent**
+
+![Scan depuis le poste client : seuls 22, 80 et 443 répondent](assets/05-scan-ports.png)
