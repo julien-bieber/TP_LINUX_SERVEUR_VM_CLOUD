@@ -54,7 +54,7 @@ curl -sI https://notif.<DOMAINE> | head -2
 Attendu : émetteur `Let's Encrypt`, redirection `308 Permanent Redirect`, réponse `200` pour ntfy.
 
 ## Pièges
-- Remplacer les domaines d'exemple du sujet par les vôtres : sinon `Could not resolve host`.
+- Remplacer les domaines d'exemple par les vôtres : sinon `Could not resolve host`.
 - Si Caddy a été créé pendant une panne réseau ou pare-feu, le recréer : `sudo docker compose up -d --force-recreate caddy`.
 - Les ports 80 **et** 443 doivent être ouverts : Let's Encrypt valide le domaine via le port 80 (défi HTTP-01).
 

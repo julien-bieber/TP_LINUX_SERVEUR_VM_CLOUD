@@ -32,7 +32,7 @@ iface eth1 inet static
     address <IP_PRIVEE>
     netmask 255.255.255.0
 ```
-> Ne mettez **pas** de ligne `gateway` sur `eth1` : cela crée une deuxième route par défaut (erreur classique du TP).
+> Ne mettez **pas** de ligne `gateway` sur `eth1` : cela crée une deuxième route par défaut (erreur classique).
 
 ```bash
 sudo systemctl restart networking

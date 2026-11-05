@@ -1,4 +1,4 @@
-# 05 - Qui frappe à la porte ? Journaux, pare-feu, CrowdSec
+# 05 - Journaux, pare-feu et CrowdSec
 
 ## Objectif
 Constater les tentatives d'intrusion, **réduire la surface exposée** à 22/80/443 et **bannir automatiquement** les attaquants.

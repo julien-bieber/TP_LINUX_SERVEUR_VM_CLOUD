@@ -1,7 +1,7 @@
-# TP Linux serveur : de la VM au cloud
+# Linux serveur : de la VM au cloud
 
-Procédure pas à pas pour reproduire le TP « Linux serveur : de la VM au cloud » (CESI).
-Chaque fichier correspond à un exercice et suit le même plan : **objectif, machine, étapes, vérification, pièges**.
+Procédure pas à pas pour monter un serveur Linux, de la VM locale au cloud : sécurisation, réseau, LAMP, Docker, HTTPS, sauvegardes et infrastructure as code.
+Chaque fichier correspond à une étape et suit le même plan : **objectif, machine, étapes, vérification, pièges**.
 
 > Toutes les valeurs propres à un environnement sont remplacées par des variables génériques.
 > Remplacez-les par les vôtres avant de lancer les commandes.
@@ -20,7 +20,7 @@ Chaque fichier correspond à un exercice et suit le même plan : **objectif, mac
 
 ## Machines
 
-| Machine | Rôle | Exercices |
+| Machine | Rôle | Étapes |
 |---|---|---|
 | VM locale Debian 13 (Hyper-V) | Bases Linux, réseau, GLPI en LAMP « à la main » | 1, 2, 3 |
 | Serveur cloud Ubuntu 24.04 | Docker, sécurité, HTTPS, sauvegardes | 4 à 8 |
@@ -33,7 +33,7 @@ Chaque fichier correspond à un exercice et suit le même plan : **objectif, mac
 2. [Réseau couche par couche](<02 - Réseau couche par couche.md>)
 3. [GLPI en LAMP](<03 - GLPI en LAMP.md>)
 4. [Docker : Uptime Kuma et ntfy](<04 - Docker Kuma et ntfy.md>)
-5. [Qui frappe à la porte ?](<05 - Qui frappe à la porte.md>)
+5. [Journaux, pare-feu et CrowdSec](<05 - Journaux pare-feu et CrowdSec.md>)
 6. [HTTPS avec Caddy](<06 - HTTPS avec Caddy.md>)
 7. [Sauvegardes restic](<07 - Sauvegardes restic.md>)
 8. [Git et Ansible](<08 - Git et Ansible.md>)
