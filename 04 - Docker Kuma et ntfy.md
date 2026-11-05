@@ -51,7 +51,7 @@ services:
       - ./data/ntfy/etc:/etc/ntfy
 YAML
 ```
-> Kuma et ntfy n'ont **pas de section `ports`** : seul Caddy est joignable depuis l'extérieur (voir exercice 6 pour le `Caddyfile`).
+> Kuma et ntfy n'ont **pas de section `ports`** : seul Caddy est joignable depuis l'extérieur (voir étape 6 pour le `Caddyfile`).
 
 ```bash
 sudo docker compose up -d
