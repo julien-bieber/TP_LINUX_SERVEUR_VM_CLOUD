@@ -17,6 +17,8 @@ Chaque fichier correspond à une étape et suit le même plan : **objectif, mach
 | `<UTILISATEUR>` | `alice` | Utilisateur d'administration (sudo) |
 | `<SUJET_NTFY>` | `alertes-xxxxxxxx` | Nom de sujet ntfy difficile à deviner |
 | `<COMPTE_GITHUB>` | `mon-compte` | Compte GitHub qui héberge le dépôt de la plateforme |
+| `<UTILISATEUR_VPS>` | `etudiant` | Utilisateur SSH du serveur cloud |
+| `<NOM_VM>` | `LINUX_1` | Nom de la VM dans Hyper-V |
 
 ## Machines
 
@@ -26,6 +28,7 @@ Chaque fichier correspond à une étape et suit le même plan : **objectif, mach
 | Serveur cloud Ubuntu 24.04 | Docker, sécurité, HTTPS, sauvegardes | 4 à 8 |
 | Seconde VM cloud vierge | Test de reconstruction par Ansible | 8 |
 | Poste client Windows | Accès SSH, tests de recette | 1, 5, 9 |
+| VM locale Debian (nœud de contrôle) | Pilote la VM et le serveur cloud avec Ansible et Git | 10 |
 
 ## Sommaire
 
@@ -38,6 +41,7 @@ Chaque fichier correspond à une étape et suit le même plan : **objectif, mach
 7. [Sauvegardes restic](<07 - Sauvegardes restic.md>)
 8. [Git et Ansible](<08 - Git et Ansible.md>)
 9. [Recette finale](<09 - Recette finale.md>)
+10. [Git, GitHub et Ansible](<10 - Git GitHub et Ansible.md>)
 
 > Les captures sont dans [`assets/`](assets/). Les IP, domaines, noms d'hôtes et sujets ntfy y sont masqués.
 
